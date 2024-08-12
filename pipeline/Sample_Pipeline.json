@@ -1,0 +1,29 @@
+{
+	"name": "Sample_Pipeline",
+	"properties": {
+		"activities": [
+			{
+				"name": "Sample",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "Sample",
+					"value": "Shankar"
+				}
+			}
+		],
+		"variables": {
+			"Sample": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-08-12T15:37:38Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
